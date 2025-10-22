@@ -1,0 +1,823 @@
+.services-section {
+    position: relative; 
+    top: 100px;
+    width: 100%;
+    background-color: #252734;
+    padding: 40px 20px 20px 0; 
+    height: 300px;
+    z-index: 111;
+}
+
+ .service-text {
+   position: relative;
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+   
+ }
+ .header-sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+ }
+ .menu-section.sticky {
+  position: fixed;
+  top: var(--menu-sticky-top, 0);
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: inherit;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.menu-section{
+    height: 100px;
+    position: relative;
+    left: 0;
+    top: 0px; /* Adjust if your header is fixed, set to header height */
+    z-index: 9999;
+    background: #252734;
+    transition: box-shadow 0.3s, background 0.3s;
+     box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.15);
+}
+
+.menu-section.sticky {
+    box-shadow: 0 4px 18px rgba(0,0,0,0.18);
+    background: #252734;
+}
+.menu-container {
+    background: #252734;
+    width: 100%;
+    height: 200px;
+    margin: auto;
+}
+ h1 {
+
+    color: #ffffff;
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    white-space: nowrap;
+    width: 800px;
+ }
+ .service-text h1 {
+    margin-left: -250px;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .border-text {
+    display: flex;
+    position: relative;
+    left: -50px;
+    padding: 20px 40px;
+    background-color: #2a2c39;
+    border-radius: 40px;
+    gap: 20px;
+        font-size: 18px;
+     font-family: 'Inter', sans-serif;
+     white-space: nowrap;
+     margin-left: 90px;
+ }
+  .border-text span {
+    color: #76867e;
+  }
+  .border-text p {
+    color: #76867e;
+    font-size: 14px;
+    transition: 0.3s ease-in-out;
+  }
+  h5 {
+    color:#ffffff;
+  }
+  
+ .border-text a {
+    text-decoration: none;
+  
+ }
+.border-text p:hover {
+    color: #fff;
+  
+}
+
+/* 
+                                               FAQ */
+.faq-section {
+   overflow: hidden;
+   margin-top: 100px;
+   width: 100%;
+   height: 2700px;
+   background-color: #2a2c39;
+}
+
+.faq-container {
+    padding-top: 100px;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.faq-box {
+    width: 100%;
+    height: 200px;
+    background: #252734;
+    margin-top: 40px;
+    border: 1px solid rgb(68, 66, 66);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.faq-numbers {
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-left: 50px;
+    width: 120px;
+    height: 100px;
+    background:#2a2c39;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    animation: numerBeat 1s infinite;
+     border: 1px solid rgb(99, 99, 99);
+}
+.faq-numbers h3 {
+   font-family: 'inter', sans-serif;
+   color: #fff;
+}
+
+.faq-numbers:hover {
+    background: #252734;
+}
+.faq-details {
+    padding-top: 40px;
+    position: relative;
+    top: -100px;
+    left: 200px;
+    width: 80%;
+    height: 100%;
+}
+.faq-details h2 {
+    color: #fff;
+    font-family: 'inter', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.faq-details p {
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 50px;
+    font-size: 13px;
+    font-family: 'inter', sans-serif;
+    color: rgb(179, 174, 174);
+}
+
+
+.faq-details-question {
+    padding-top: 40px;
+    position: relative;
+    top: -100px;
+    left: 200px;
+    width: 80%;
+    height: 100%;
+}
+.faq-details-question h2 {
+    color: #fff;
+    font-family: 'inter', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+.faq-details a {
+  text-decoration: none;
+}
+.header-questions {
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  top: 60px;
+  left: 150px;
+}
+
+.faq-details-question p {
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'inter', sans-serif;
+    color: rgb(179, 174, 174);
+}
+
+  .faq-boxes {
+    width: 100%;
+    height: 200px;
+    background: #252734;
+    margin-top: 40px;
+    border: 1px solid rgb(68, 66, 66);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.faq-details-question h3 {
+  color: #fff;
+  font-size: 30px;
+}
+.faq-numbers a {
+  text-decoration: none;
+}
+
+.faq-numbers-question {
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-left: 50px;
+    width: 120px;
+    height: 100px;
+    background:#2a2c39;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    animation: numerBeat 1s infinite;
+    border: 1px solid rgb(99, 99, 99);
+}
+.faq-numbers-question h3 {
+   font-family: 'inter', sans-serif;
+   color: #fff;
+}
+
+.faq-question {
+  position: relative;
+  top: 100px;
+  left: 0;
+}
+
+.faq-details-question p {
+  margin-top: 130px;
+}
+.faq-details-question span {
+  font-size: 50px;
+}
+
+
+.conern-box {
+  width: 500px;
+  height: 400px;
+}
+  /* FAQ ENDS HERE */
+
+
+
+
+
+ 
+.latest-updates {
+  width: 100%;
+  height: 300px;
+}
+
+.updates-header {
+  width: 30%;
+  height: 70px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+}
+.updates-header h3 {
+  font-size: 16px;
+  color: darkgray;  
+  font-family: 'Inter', sans-serif;
+}
+.updates-header span {
+  margin-top: -4px;
+  color: darkgray;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.update-contact {
+  margin-top: 20px;
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  display: flex;
+}
+
+.num {
+  width: 30%;
+  height: 100%;
+  display: flex;
+}
+
+.num i {
+  border: 0.5px solid #76867e;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 25px;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+.num i:hover {
+  border: none;
+  background-color: #fff;
+  color: #000;
+  transform: scale(1.1);
+}
+.num span {
+  color: #fff;
+  margin-top: 85px;
+  margin-left: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+}
+
+
+.num2 {
+  width: 40%;
+  height: 100%;
+  display: flex;
+}
+.num2 a {
+  text-decoration: none;
+}
+
+.num2 i {
+  border: 0.5px solid #76867e;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 25px;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+.num2 i:hover {
+  border: none;
+  background-color: #fff;
+  color: #000;
+  transform: scale(1.1);
+}
+.num2 span {
+  color: #fff;
+  margin-top: 85px;
+  margin-left: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+}
+
+.num .num-email {
+  color: #fff;
+  margin-top: 85px;
+  margin-left: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+}
+.icons-email-update {
+  width: 30%;
+  margin-left: 120px;
+  height: 100%;
+  display: flex;
+  gap: 15px;
+}
+
+.icons-email-update i {
+  border: 0.5px solid #76867e;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  margin-left: 27px;
+  margin-top: 70px;
+}
+
+.icons-email-update i:hover {
+  border: none;
+  background-color: #fff;
+  color: #000;
+  transform: scale(1.1);
+}
+.icons-email-update a {
+  text-decoration: none;
+}
+
+.service-footer {
+  overflow: hidden;
+  width: 100%;
+  height: 100px;
+  border: 0.1px solid gray;
+  border-left: none;
+  border-right: none;
+}
+
+.service-logo {
+  width: 200px;
+  height: 200px;
+}
+.service-content-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.service-content-footer p {
+  color: gray;
+  font-family: 'inter', sans-serif;
+  font-size: 17px;
+  position: absolute;
+  top: 50px;
+  left: 90px;
+}
+.service-content-footer span {
+  color: #37bd54;
+}
+
+.service-logo {
+  position: absolute;
+  right: 100px;
+  top: -50px;
+}
+
+
+.scroll-to-top-services {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #252734;
+  border: 1px solid rgb(73, 68, 68);
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  transition: transform 0.3s ease-in-out;
+  width: 60px;
+  height: 60px;
+  z-index: 1000; /* Add this to ensure it's above other elements */
+}
+
+.scroll-to-top-services.show {
+  display: block;
+}
+
+.scroll-to-top-services h1 {
+  font-size: 24px;
+  margin-top: 4px;
+  text-align: center;
+}
+
+.scroll-to-top-services:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#arrow-scrolls {
+    margin: 0;
+    font-size: 32px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1;
+}
+
+
+
+                                        /* concern styling start here */
+.concern-question {
+  margin-bottom: 30px;
+  width: 100%;
+  height: 500px;
+    background-color: #2a2c39;
+}
+
+.concern-box {
+  position: relative;
+  top: 50px;
+  margin: auto;
+  width: 80%;
+  height: 400px;
+  margin-top: 50px;
+  background-color: #252734;
+  border-radius: 20px;
+}
+.concern-box h3 {
+  position: relative;
+  top: 100px;
+  left: 40px;
+  color: #fff;
+  font-size: 30px;
+  font-family: 'inter', sans-serif;
+}
+
+.concern-box p {
+  position: relative;
+  top: 200px;
+  left: 40px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'inter', sans-serif;
+}
+
+
+
+
+ 
+.robot-container {
+  text-decoration: none;
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  position: absolute;
+  top: -80px;
+  right: 100px;
+        }
+        
+        .robot {
+            position: relative;
+            width: 200px;
+            height: 280px;
+            margin-bottom: 30px;
+        }
+        
+        /* Robot head */
+        /* Robot head - 404 themed colors */
+        .head {
+            position: absolute;
+            width: 160px;
+            height: 120px;
+            background: linear-gradient(135deg, #3a3c4e 0%, #2f3140 100%);
+            border-radius: 25px;
+            top: 0;
+            left: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+            z-index: 10;
+            border: 2px solid #444759;
+        }
+        
+        .face {
+            width: 120px;
+            height: 60px;
+            background: #252734;
+            border-radius: 15px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0 10px;
+            border: 1px solid #444759;
+        }
+        
+        .eye {
+            width: 25px;
+            height: 25px;
+            background: #ff6b8b;
+            border-radius: 50%;
+            position: relative;
+            overflow: hidden;
+            animation: blink 4s infinite;
+            box-shadow: 0 0 15px rgba(255, 107, 139, 0.5);
+        }
+        
+        .eye::after {
+            content: '';
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 50%;
+            top: 5px;
+            left: 5px;
+        }
+        
+        /* Robot body - 404 themed colors */
+        .body {
+            position: absolute;
+            width: 200px;
+            height: 140px;
+            background: linear-gradient(135deg, #2f3140 0%, #252734 100%);
+            border-radius: 15px;
+            top: 100px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #444759;
+        }
+        
+        .panel {
+          
+            width: 140px;
+            height: 60px;
+            background: #3a3c4e;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffa86a;
+            font-size: 14px;
+            letter-spacing: 1px;
+            animation: glow 2s infinite alternate;
+            box-shadow: 0 0 15px rgba(255, 168, 106, 0.3);
+            border: 1px solid #ffa86a;
+        }
+        
+        /* Robot arm with pointing animation */
+        .arm {
+            position: absolute;
+            width: 30px;
+            height: 90px;
+            background: linear-gradient(135deg, #3a3c4e 0%, #2f3140 100%);
+            top: 110px;
+            border-radius: 8px;
+            transform-origin: top center;
+            z-index: 5;
+            border: 2px solid #444759;
+        }
+        
+        .arm-left {
+            left: -10px;
+            animation: move-left 3s infinite;
+        }
+        
+        .arm-right {
+            right: -10px;
+            animation: move-right 3s infinite;
+        }
+        
+        .hand {
+            position: absolute;
+            width: 30px;
+            height: 20px;
+            background: #252734;
+            bottom: -20px;
+            border-radius: 0 0 8px 8px;
+            border-top: 2px solid #444759;
+        }
+        
+        /* Robot base */
+        .base {
+            position: absolute;
+            width: 220px;
+            height: 30px;
+            background: #252734;
+            border-radius: 8px;
+            top: 240px;
+            left: -10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+            border: 2px solid #444759;
+        }
+        
+
+
+
+            
+        /* Animations */
+        @keyframes move-right {
+            0%, 100% { transform: rotate(0deg); }
+            50% { transform: rotate(-130deg); } /* Pointing toward contact form */
+        }
+        
+        @keyframes move-left {
+            0%, 100% { transform: rotate(0deg); }
+            50% { transform: rotate(10deg); }
+        }
+        
+        @keyframes blink {
+            0%, 45%, 50%, 55%, 100% { transform: scaleY(1); }
+            48%, 52% { transform: scaleY(0.1); } /* Quick blink */
+        }
+        
+        @keyframes glow {
+            0% { box-shadow: 0 0 10px rgba(255, 168, 106, 0.3); }
+            100% { box-shadow: 0 0 20px rgba(255, 168, 106, 0.6); }
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+            
+            .robot {
+                transform: scale(0.9);
+            }
+            
+            h1 {
+                font-size: 2.2rem;
+            }
+        }
+
+
+
+
+ /* Back to Top Button Styles */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #2f2c31 0%, #222324 100%);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 20px rgba(137, 135, 139, 0.4);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px);
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            z-index: 1000;
+        }
+        
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+        
+        .back-to-top:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 25px rgba(30, 28, 32, 0.6);
+        }
+        
+        .back-to-top:active {
+            transform: translateY(0);
+        }
+        
+        .back-to-top svg {
+            width: 24px;
+            height: 24px;
+            fill: white;
+            transition: transform 0.3s ease;
+        }
+        
+        .back-to-top:hover svg {
+            transform: translateY(-3px);
+        }
+
+
+.service-content-footer a {
+  text-decoration: none;
+}
+
+
+  /* Spider web overlay (non-interactive) */
+#spider-overlay {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* never intercept clicks */
+  z-index: 9999;
+  overflow: visible;
+}
+#spider-overlay line,
+#spider-overlay path {
+  stroke: rgba(255,255,255,0.14);
+  stroke-width: 1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.45));
+  mix-blend-mode: screen;
+  will-change: stroke-dashoffset, opacity;
+}
+#spider-overlay .web-group {
+  opacity: 1;
+  transition: opacity 900ms ease 4s; /* fade out after draw completes */
+}
+#spider-overlay .web-hidden {
+  opacity: 0;
+}
+
+
+
